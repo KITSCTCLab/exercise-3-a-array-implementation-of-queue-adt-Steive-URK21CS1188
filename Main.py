@@ -144,6 +144,8 @@ for i in solution.queue:
     b=b+solution.dequeue_character()
 if a!=b:
     is_palindrome = False
+else:
+    is_palindrome = True
 # finally print whether string text is palindrome or not.
 if is_palindrome:
     print("The word, " + text + ", is a palindrome.")
