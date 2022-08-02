@@ -108,7 +108,8 @@ class Solution:
         Returns:
           The data that is dequeued if the queue is not empty.
         """
-        # Write your code here
+        # Write your code her
+        r=""
         if not self.is_queue_empty():
             r=self.queue[self.front]
             del self.queue[self.front]
