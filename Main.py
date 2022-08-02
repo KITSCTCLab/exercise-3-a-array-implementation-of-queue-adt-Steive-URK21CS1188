@@ -109,7 +109,6 @@ class Solution:
           The data that is dequeued if the queue is not empty.
         """
         # Write your code her
-        r=""
         if not self.is_queue_empty():
             r=self.queue[self.front]
             del self.queue[self.front]
@@ -140,7 +139,7 @@ If the comparison fails, set is_palindrome as False.
 # Write the necessary logic
 a=""
 b=""
-for i in range(length_of_text):
+for i in solution.queue:
     a=a+solution.pop_character()
     b=b+solution.dequeue_character()
 if a!=b:
