@@ -110,8 +110,8 @@ class Solution:
         """
         # Write your code her
         if not self.is_queue_empty():
-            r=self.queue[self.front]
-            del self.queue[self.front]
+            r=self.queue[0]
+            del self.queue[0]
             self.front+=1
             return r
 # read the string text
