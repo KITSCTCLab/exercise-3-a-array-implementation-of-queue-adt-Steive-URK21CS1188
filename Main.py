@@ -17,8 +17,8 @@ class Solution:
         """
         
         self.size = size
-        self.lst = []
-        self.queue = []
+        self.lst = [None]*size
+        self.queue = [None]*size
         self.top = -1
         self.rear = -1
         self.front = -1
