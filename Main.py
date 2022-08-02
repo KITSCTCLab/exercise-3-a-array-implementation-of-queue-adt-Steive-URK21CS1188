@@ -30,7 +30,7 @@ class Solution:
           True if it is empty, else returns False.
         """
         # Write your code here
-         if self.top == -1:
+        if self.top == -1:
             return 1
         else :
             return 0
