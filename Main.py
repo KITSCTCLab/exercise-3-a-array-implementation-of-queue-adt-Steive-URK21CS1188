@@ -139,7 +139,7 @@ If the comparison fails, set is_palindrome as False.
 # Write the necessary logic
 a=""
 b=""
-for i in solution.queue:
+for i in range(solution.front:solution.rear+1):
     a+=solution.pop_character()
     b+=solution.dequeue_character()
 if a!=b:
