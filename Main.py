@@ -140,8 +140,8 @@ If the comparison fails, set is_palindrome as False.
 a=""
 b=""
 for i in solution.queue:
-    a=a+solution.pop_character()
-    b=b+solution.dequeue_character()
+    a+=solution.pop_character()
+    b+=solution.dequeue_character()
 if a!=b:
     is_palindrome = False
 else:
